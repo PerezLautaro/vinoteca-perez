@@ -11,6 +11,8 @@
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+    <!--Link Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--Link CSS-->
     <link rel="stylesheet" href="../style.css">
 
@@ -59,21 +61,26 @@
 <!----------MAIN---------->
     <main>
 
-        <section class="main__section--flex">
-
-            <article>
-                <div id="imgnosotros">
-                    <img src="../assets/img/vinoteca.png" alt="imgnosotros"> 
-                </div>  
-            </article>
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-lg-6 col-md-6 col-xs-12">
+                            <div id="imgnosotros">
+                                <img src="../assets/img/vinoteca.png" alt="imgnosotros"> 
+                            </div>  
+                        </article>
+                        
+                        <article class="col-lg-6 col-md-6 col-xs-12">
+                            <p>
+                            Acá va el texto sonbre La Vinoteca. Productos que vende, calidad, confianza, dónde está localizado el lugar, cuándo se fundó, etc etc.
+                            </p>
             
-            <article>
-                <p>
-                Acá va el texto sonbre La Vinoteca. Productos que vende, calidad, confianza, dónde está localizado el lugar, cuándo se fundó, etc etc.
-                </p>
-
-             </article> 
-            
+                         </article> 
+                        
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
@@ -122,5 +129,7 @@
     
 </div>
 
+<!--Link Bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

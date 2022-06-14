@@ -11,6 +11,8 @@
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+    <!--Link Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--Link CSS-->
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -58,60 +60,68 @@
 <!----------MAIN---------->
     <main>
 
-        <section class="main__section--flex"> 
+        <section> 
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
 
-            <article>
-              <p>
-                  Descripcion sobre en qué consiste ser parte del club. 
-              </p>
-              <p>
-                  Beneficios, promociones, etc.
-              </p>
-            </article>
+                        <article class="col-lg-4 col-md-4 col-xs-12">
+                            <p>
+                                Descripcion sobre en qué consiste ser parte del club. 
+                            </p>
+                            <p>
+                                Beneficios, promociones, etc.
+                            </p>
+                          </article>
+              
+                          <article class="col-lg-4 col-md-4 col-xs-12">
+                               <div id="imgclub">
+                              <img src="../assets/img/club.png" alt="fotoclub">
+                               </div>
+                          </article>
+                      
+                          <article class="col-lg-4 col-md-4 col-xs-12">
+                              <form action="" method="get" enctype="multipart/form-data">
+              
+                                  <fieldset>
+                                      <legend>Sé parte del Club</legend>
+                                      <label for="nombreyapellido">
+                                          <input placeholder="Nombre y Apellido" name="nombre" type="text">
+                                      </label>
+                                       <br>
+                                       <label for="mail">
+                                          <input placeholder="Mail" name="mail" type="email">
+                                      </label>
+                                      <br>
+                                      <label for="telefono">
+                                          <input placeholder="Telefono" name="telefono" type="number">
+                                      </label>
+                                      <br>
+                                      <label for="direccion">
+                                          <input placeholder="Dirección" name="direccion" type="text">
+                                      </label>
+                                      <br>
+                                      <label for="checkbox">
+                                          <p>Quiero ser parte del Club y adherirme al newsletter</p>
+                                          <input type="checkbox" name="checkbox">
+                                      </label>
+                                      <label for="comentario">
+                                          <textarea placeholder="Comentarios adicionales" name="comentario"></textarea>
+                                      </label>
+                                      <br>
+                                      <label for="botonenvio">
+                                          <input name="enviar" type="submit" value="Enviar" class="btn">
+                                      </label>
+                                  
+                                  </fieldset>
+                              </form>
+                          </article>
+              
+                    </div>
+                </div>
+            </div>
 
-            <article>
-                 <div id="imgclub">
-                <img src="../assets/img/club.png" alt="fotoclub">
-                 </div>
-            </article>
-        
-            <article>
-                <form action="" method="get" enctype="multipart/form-data">
-
-                    <fieldset>
-                        <legend>Sé parte del Club</legend>
-                        <label for="nombreyapellido">
-                            <input placeholder="Nombre y Apellido" name="nombre" type="text">
-                        </label>
-                         <br>
-                         <label for="mail">
-                            <input placeholder="Mail" name="mail" type="email">
-                        </label>
-                        <br>
-                        <label for="telefono">
-                            <input placeholder="Telefono" name="telefono" type="number">
-                        </label>
-                        <br>
-                        <label for="direccion">
-                            <input placeholder="Dirección" name="direccion" type="text">
-                        </label>
-                        <br>
-                        <label for="checkbox">
-                            <p>Quiero ser parte del Club y adherirme al newsletter</p>
-                            <input type="checkbox" name="checkbox">
-                        </label>
-                        <label for="comentario">
-                            <textarea placeholder="Comentarios adicionales" name="comentario"></textarea>
-                        </label>
-                        <br>
-                        <label for="botonenvio">
-                            <input name="enviar" type="submit" value="Enviar" class="btn">
-                        </label>
-                    
-                    </fieldset>
-                </form>
-            </article>
-
+    
         </section>
 
 
@@ -161,5 +171,7 @@
 
 </div>
   
+<!--Link Bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
