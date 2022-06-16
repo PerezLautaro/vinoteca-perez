@@ -75,6 +75,9 @@ nav a:hover {
   text-align: center;  
 }
 
+.cardproducto:hover {
+    transform: scale(0.8);
+}
 .boton {
     width: 70%;
     padding: 3px;
@@ -90,9 +93,7 @@ nav a:hover {
     margin: auto;
 }
 
-.imgproductos:hover {
-    transform: scale(0.8);
-}
+
 
 /*formularios*/
 form input {
