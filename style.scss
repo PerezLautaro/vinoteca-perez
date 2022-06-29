@@ -1,7 +1,7 @@
 /*-----------MAPAS y VARIABLES-----------------------*/
 $estilogeneral: (
     background-color: black,
-    font-family: 'Nunito', sans-serif,
+    font-family:'Nunito', sans-serif,
     color: white
 );
 
@@ -41,6 +41,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .nav__ul {
@@ -160,7 +161,7 @@ form {
     }
 }
 
-/*-----------RESPONSIVE-----------------------*/
+/*-----------RESPONSIVE NAV----------------------*/
 @mixin flex-row-center {
     display: flex;
     flex-direction: row;
