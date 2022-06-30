@@ -1,7 +1,7 @@
 /*-----------MAPAS y VARIABLES-----------------------*/
 $estilogeneral: (
     background-color: black,
-    font-family:'Nunito', sans-serif,
+    font-family:'Nunito',
     color: white
 );
 
@@ -23,12 +23,12 @@ body{
     font-weight: bold;
 }
 
-h1 {
-    display: none;
-}
-
 .center {
     text-align: center;
+}
+
+#oculto {
+    display: none;
 }
 
 /*-----------HEADER-----------------------*/
